@@ -1,89 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<title>Prueba de maquetación</title>
-	</head>
-	<body>
-		<h1>Mi primera web desde hace años</h1>
-		<hr/>
-		<h2>Bienvenidos a mi web</h2>
-		<img src="imagenes/luna.jpg" title="Luna en el lago" alt="Luna en el lago" width="155px" height="100px" />
-		<img src="imagenes/luna2.jpg" title="Luna con el pescador" alt="Luna con el pescador" width="155px" height="100px" />
-		<img src="imagenes/luna.jpg" title="Luna en el lago" alt="Luna en el lago" width="155px" height="100px" />
-		<img src="imagenes/luna2.jpg" title="Luna con el pescador" alt="Luna con el pescador" width="155px" height="100px" />
-		<hr/>
+<head>
+		<meta charset="utf-8">
+	<title>Ejercicio Maquetacion CSS</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/png" href="imagen.png">
+</head>
+<body>
+	<div id="general">
+		<header id="header">
+			<h1>Ejercicio Maquetacion CSS</h1>
+		</header>
+		<nav id="menu">
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Artículos</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+			<div class="clearFix"></div>
+		</nav>
+		<section id="principal">
+			<h1>Estos son los contenidos centrales:</h1>
+			<div class="caja">Caja 1</div>
+			<div class="caja">Caja 2</div>
+			<div class="caja">Caja 3</div>
+			<div class="caja">Caja 4</div>
+			<div class="caja">Caja 5</div>
+			<div class="caja">Caja 6</div>
+			<div class="caja">Caja 7</div>
+			<div class="caja">Caja 8</div>
+			<div class="clearFix"></div>
+		</section>
 
-		<p>
-			Lorem fistrum te va a hasé pupitaa a gramenawer te va a hasé pupitaa no puedor al ataquerl te va a hasé pupitaa al ataquerl ese pedazo de amatomaa a gramenawer. Condemor la caidita al ataquerl condemor al ataquerl. De la pradera caballo blanco caballo negroorl condemor no puedor hasta luego Lucas apetecan por la gloria de mi madre torpedo. A gramenawer no te digo trigo por no llamarte Rodrigor pupita ese hombree benemeritaar de la pradera. Caballo blanco caballo negroorl te voy a borrar el cerito fistro sexuarl. Condemor tiene musho peligro papaar papaar caballo blanco caballo negroorl ese que llega jarl me cago en tus muelas quietooor hasta luego Lucas. 
-		</p>
-		<hr/>
-		<h3>Este es el tercer encabezado de mi <strong>página</strong></h3>
-		<p>
-			
-			Amatomaa pupita sexuarl por la gloria de mi madre está la cosa muy malar a peich al ataquerl mamaar. A gramenawer te va a hasé pupitaa mamaar a gramenawer condemor. Apetecan jarl jarl la caidita tiene musho peligro mamaar ese que llega de la pradera no te digo trigo por no llamarte Rodrigor se calle ustée. A gramenawer ese pedazo de a gramenawer a peich apetecan. Fistro diodeno mamaar fistro a gramenawer <br/> benemeritaar pecador. Ese que llega te va a hasé pupitaa torpedo qué dise usteer diodeno a gramenawer llevame al sircoo no puedor quietooor. Mamaar a peich amatomaa <em>papaar papaar</em>. Pupita por la gloria de mi madre por la gloria de mi madre ahorarr llevame al sircoo no puedor. Jarl diodeno te va a hasé pupitaa tiene musho peligro torpedo ese que llega no te digo trigo por no llamarte 
-			<span id="resaltado">Rodrigor</span>. 
+		<aside id="sidebar">
+			<div>
+				<h1>Caja de contenido de sidebar</h1>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</div>
+		</aside>
+		<div class="clearFix"></div>
+		<footer id="footer">Todos los derechos reservados &copy; Sergio Illán WEB</footer>
+	</div>
 
-			<blockquote>
-				<em>
-					Ctrl+Shift+p seleccionamos SublimeCodeIntel esperamos a que se instale, cerramos la pestaña y cerramos sublime y ya estaría.
-				</em>
-			</blockquote>
-		</p>
-
-		<h4>Esta es la lista de mis frutas favoritas</h4>
-		<ul>
-			<li>Fresas</li>			
-			<li>Melón</li>
-			<li>Melocotón</li>
-			<li>Manzana</li>			
-		</ul>
-		<span>otra lista ordenada y anidada</span>
-		<ol>
-			<li>Fresas</li>			
-			<li>Melón</li>
-			<li>Melocotón</li>
-			<li>
-				Manzana
-				<ul>
-					<li>Fuji</li>
-					<li>mujercita</li>
-				</ul>	
-			</li>
-		</ol>
-
-		<h5>Utilizamnos las tablas</h5>
-		<table border="1">
-			<tr>
-				<th>
-					Nombre
-				</th>
-				<th>
-					Apellido
-				</th>
-				<th>
-					País
-				</th>
-			</tr>
-			<tr>
-				<td>
-					Luis
-				</td>
-				<td>
-					García
-				</td>
-				<td>
-					Francia
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Sergio
-				</td>
-				<td colspan="2">
-					Sererano
-				</td>
-			</tr>
-		</table>
-		
-	</body>
+</body>
 </html>
